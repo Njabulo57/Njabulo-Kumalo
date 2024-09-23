@@ -6,6 +6,15 @@ document.addEventListener('DOMContentLoaded',function(event){
     setTimeout(callback, delay);
   }
 
+  const project3 = "https://njabulo57.github.io/Njabulo-Kumalo/project3.html"
+  const project2 = "https://njabulo57.github.io/Njabulo-Kumalo/project2.html"
+  const project1 = "https://njabulo57.github.io/Njabulo-Kumalo/project.html"
+  let referrer = document.referrer;
+  if (referrer == project3 || referrer == project1 || referrer == project2 ) {
+      checkScreen(bigScreens)
+  } else {
+    runSequence();
+  }
   
   //beginTypeWriter()
 
@@ -64,7 +73,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 // setTimeout(runSequence, 2000)
    
-  runSequence()
+  //runSequence()
   
   var pageLoad = 0
   // setTimeout(function() {
