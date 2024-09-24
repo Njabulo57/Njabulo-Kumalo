@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Njabulo Kumalo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js" integrity="sha512-G7Wpe/pbg+zjyyM9HgQY6kacLAy+580lmA8DUXmZtioTI5FkaCRoLOaCLoeblrZABs7KZFD03cfSV9j7nmwxfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+
+<body>
+  <header id="preloader">
+    <h4 id="preloader-title">Loading Magic... Please Wait</h4>
+  </header>
+  <main>
+    
+
+    <div id="hero" class="hero">
+      <nav class="mobile-nav">
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h2 class="mobile-logo">Njabulo Kumalo</h2>
+        <ul>
+          <li>
+            <a  href="#about" class="link">
+              <span class="mask">
+                <div class="link-container">
+                  <span  class="link-title1 title">About / ¹</span>
+                  <span class="link-title2 title">About</span>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#services" class="link">
+              <span class="mask">
+                <div class="link-container">
+                  <span  class="link-title1 title">Services / ²</span>
+                  <span class="link-title2 title">Services</span>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="link">
+              <span class="mask">
+                <div class="link-container">
+                  <span  class="link-title1 title">Projects / ³</span>
+                  <span class="link-title2 title">Projects</span>
+                </div>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#footer" class="link">
+              <span class="mask">
+                <div class="link-container">
+                  <span  class="link-title1 title">Contact / ⁴</span>
+                  <span class="link-title2 title">Contact</span>
+                </div>
+              </span>
+            </a>
+          </li>
+          <!-- <button class="button footer-cta-btn"><span>Work With Me</span></button> -->
+        </ul>
+      </nav>
+      <nav class="desktop-nav">
+        <h2 class="logo">Njabulo Kumalo</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Nav ends -->
+
+      <div class="call-to-action">
+        <h1 class="position">Full-Stack Developer who loves design</h1>
+        <button onclick="window.location.href='resume.html'" class="cta button"><span>Hire Me</span></button>
+      </div>
+      <div class="arrow-container">
+        <div class="mouse"></div>
+        <p class="scroll-text">scroll down</p>
+      </div>
+    </div>
+    <!-- Hero ends -->
+
+   
+
+    <div id="about" class="about">
+        <div class="bio-text">
+          <h4 class="scroll-reveal">About Me</h4>
+          <span class="dots"></span>
+          <p class="scroll-reveal about-p">Hello, I'm Njabulo Kumalo, a <span class="highlighter">creative</span> full-stack developer focusing on <span class="highlighter">React.js</span>. With over <span class="highlighter">two years</span> of
+            experience in web development, I am proficient in <span class="highlighter">HTML, CSS, JavaScript,</span> and various front-end frameworks.
+            My journey with web technologies has equipped me with the skills to develop both websites and full-stack
+            applications, ensuring a seamless and engaging user experience.
+          </p>
+          <h3 class="quote quote-1 character-scroll-reveal">"Consume <span class="highlighter">Less,</span></h3>
+          <div class="story-block">
+            <p class="story story-1">
+              A guiding principle that has profoundly shaped my life and career is the phrase "Consume less, create more." This
+              mindset started with my early passion for art. I began drawing in preschool when a close friend showed me his art,
+              sparking a fire within me. Throughout primary school, I continued drawing, even meeting my best friend through our
+              shared love for art. Interestingly, we were supposed to compete, but instead, we chose friendship and collaboration. By
+              grade 7, we were planning to start our own comic book, not just as a creative endeavor but with the intent to sell it.
+            </p>
+            <h3 class="quote quote-2 scroll-reveal-custom">Create</h3>
+            <p class="story story-2">
+              The philosophy of "Consume less, create more" wasn't limited to art for me. In high school, I sold sweets to my
+              classmates, demonstrating my entrepreneurial spirit early on. By my matric year, I had embraced other forms of art,
+              including writing music and video editing. A memorable moment from grade 6 was rapping over a beat with the same friend
+              who introduced me to art during a prize-giving event.
+            </p>
+          </div>
+          <div class="story-block-2">
+            <h3 class="quote quote-3 character-scroll-reveal">More"</h3>
+            <p class="story story-3">All these experiences led me to discover my ikigai—frontend development. But to find that ikigai, I had to embrace the
+            philosophy of "consume less, create more." This phrase transformed my approach to life, shifting my focus from passive
+            consumption to active creation. Instead of spending countless hours scrolling through social media or consuming content,
+            I dedicated that time to learning and building. This shift not only enhanced my skills as a frontend developer but also
+            ignited a passion for continuous learning and innovation.</p>
+          </div>
+          <p class="story story-4">
+            By consuming less, I've gained clarity and focus, allowing me to channel my energy into meaningful projects. Creating
+            more has given me a sense of purpose and accomplishment, as I see my ideas come to life and positively impact others.
+            Incorporating "Consume less, create more" into my daily routine has been a game-changer, enabling me to grow both
+            personally and professionally. It serves as a reminder to prioritize creativity and productivity, ultimately leading to
+            a more fulfilling and impactful career.
+          </p>
+        </div>
+    </div>
+    <!-- About ends -->
+
+    <div id="services" class="services">
+      <div class="services-cta">
+        <h3 class="services-cta-text">
+          Elevate Your Brand with My Expertise in <span class="service-highlighter">Frontend Development</span>
+        </h3>
+        <div class="service-icon">
+          <img src="lighting.svg" alt="lighting icon" srcset="">
+        </div>
+      </div>
+      <div class="offered-services">
+        <div class="web-dev">
+          <i class="fa-solid fa-code"></i>
+          <div class="service-description">
+            <h5>Web Design & Development</h5>
+            <p>
+              Crafting visually stunning websites with seamless navigation
+              and engaging user interfaces, tailored to your brand's unique
+              identity.
+            </p>
+          </div>
+        </div>
+        <div class="maintenance">
+          <i class="fa-solid fa-wrench"></i>
+          <div class="service-description">
+            <h5>Website Maintenance & Support</h5>
+            <p>Providing ongoing maintenance and support services
+              to keep your website running smoothly, including
+              updates, troubleshooting, and perfomance optimization.
+            </p>
+          </div>
+        </div>
+        <div class="seo">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="service-description">
+            <h5>SEO Optimization</h5>
+            <p>
+              Transforming your website into a powerful online presence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services ends
+
+    <!-- marquee -->
+    <div class="marquee-wrapper">
+      <div class="marquee-item marquee-item-1">
+        <i class="fa-solid fa-asterisk"></i>
+        <p class="marquee-text marquee-text-stroked">Web development</p>
+      </div>
+      <div class="marquee-item marquee-item-2">
+        <i class="fa-solid fa-asterisk"></i>
+        <p class="marquee-text">Web design</p>
+      </div>
+      <div class="marquee-item marquee-item-3">
+        <i class="fa-solid fa-asterisk"></i>
+        <p class="marquee-text marquee-text-stroked">SEO Optimization</p>
+      </div>
+      <div class="marquee-item marquee-item-4">
+        <i class="fa-solid fa-asterisk"></i>
+        <p class="marquee-text">UI design</p>
+      </div>
+      <div class="marquee-item marquee-item-5">
+        <i class="fa-solid fa-asterisk"></i>
+        <p class="marquee-text marquee-text-stroked">Frontend dev</p>
+      </div>
+    </div>
+    <!-- marquee -->
+
+    <div id="projects" class="projects">
+      <h3 class="projects-title">Explore My Recent Projects</h3>
+      <div class="dragable-carousel">
+        <div class="wrapper">
+          <div class="box box-1">
+            <div class="project-info">
+              <p class="project-name">Mrs Treets</p>
+              <button onclick="window.location.href='project3.html'" class="view-project-btn">web app</button>
+            </div>
+          </div>
+          <div class="box box-2">
+            <div class="project-info">
+              <p class="project-name">MID Solutionz</p>
+              <button onclick="window.location.href='project2.html'" class="view-project-btn">website</button>
+            </div>
+          </div>
+          <div class="box box-3">
+            <div class="project-info">
+              <p class="project-name">Res Locator</p>
+              <button onclick="window.location.href='project.html'" class="view-project-btn">web app</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <h3 class="projects-cta">Leveraging modern tools to deliver an exceptional user experience</h3>
+      <div class="tools">
+        <div class="tool">
+          <div class="tool-logo"><img src="html-logo.svg" alt="html logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="89">0%</p>
+          <p class="tool-name">Html 5</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="css-logo.svg" alt="css logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="88">0%</p>
+          <p class="tool-name">Css 5</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="Logo_C_sharp.svg" alt="C# logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="71">0%</p>
+          <p class="tool-name">C#</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="NET_Core_Logo.svg" alt=".Net core logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="60">0%</p>
+          <p class="tool-name">.Net Suite</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="react-logo.svg" alt="react js logo"></div>
+          <p class="tool-proficiency" data-percentage="63">0%</p>
+          <p class="tool-name">React.js</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="Figma-logo.svg" alt="figma logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="80">0%</p>
+          <p class="tool-name">Figma</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="javascript-logo.svg" alt="JavaScript logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="76">0%</p>
+          <p class="tool-name">JavaScript</p>
+        </div>
+        <div class="tool">
+          <div class="tool-logo"><img src="icons8-microsoft-sql-server.svg" alt="MSSQL logo" srcset=""></div>
+          <p class="tool-proficiency" data-percentage="70">0%</p>
+          <p class="tool-name">MSSQL</p>
+        </div>
+      </div>
+    </div>
+    <!-- Projects ends -->
+
+  </main>
+
+  <footer>
+    <div class="footer-cta">
+      <h3 class="footer-cta-text">Got A Project In Mind? Let's Talk</h3>
+      <button onclick="window.location.href='mailto:njabulokumalo57@gmail.com'" class="button footer-cta-btn"><span>Work With Me</span></button>
+    </div>
+    <div class="footer" id="footer">
+      <p class="copyright">© 2024 Njabulo Kumalo. All Rights Reserved.</p>
+      <div class="contact-links">
+        <a href="resume.html">Resume</a>
+        <a href="https://www.linkedin.com/in/njabulo-kumalo-4830a4249/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Njabulo57"><i class="fa-brands fa-square-github"></i></a>
+        <a href="mailto:njabulokumalo57@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer ends -->
+
+  <!-- scripts -->
+   <script>
+    
+    // document.addEventListener('DOMContentLoaded', (event) => {
+            
+    // });
+    
+  
+
+  
+   
+      
+    
+
+    
+    
+
+    
+
+
+
+
+    
+   </script>
+
+</body>
+
+</html>
